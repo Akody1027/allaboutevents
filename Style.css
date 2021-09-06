@@ -1,0 +1,101 @@
+﻿html{
+    background-color:whitesmoke;
+
+ }
+
+
+body{
+    padding:0px;
+    border:0px;
+    margin:0px;
+
+}
+
+
+ul {
+    display:inline;
+    text-decoration:none;
+    color: hotpink;
+    overflow:hidden;
+    background-color:whitesmoke
+}
+li {
+    margin: 5%;
+    margin-top: 0.1px;
+    margin-bottom: 0.1px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+a {
+    background-color:whitesmoke;
+    color:lightpink;
+    font-size: 150%;
+    font-family:'Comic Sans MS';
+}
+
+nav {
+    text-align:center;
+    background-color:whitesmoke;
+}
+
+
+#video1{
+    min-width:100% !important;
+    height:100%;
+}
+
+.form  {
+    box-sizing:border-box;
+    line-height:1.5;
+    display:flex;
+    flex-direction:column;
+
+}
+input[type=text] {
+    width: 80%;
+    border: 2px solid;
+    border-radius: 6px;
+    margin: 1% 10%;
+    padding: 8px;
+    outline: none;
+    box-sizing: border-box;
+    border-color: lightpink;
+    background-color: lightpink;
+}
+input[type=text]:focus{
+    border-color:deeppink;
+}
+
+input[type=email] {
+    width: 80%;
+    border: 2px solid;
+    border-radius: 6px;
+    margin: 1% 10%;
+    padding: 8px;
+    outline: none;
+    box-sizing: border-box;
+    border-color: lightpink;
+    background-color: lightpink;
+}
+
+input[type=email]:focus {
+    border-color:deeppink;
+}
+
+
+button[type=submit]{
+    text-align:center;
+    background-color:lightpink;
+    border-radius:6px;
+    width:50%;
+    margin-left:25%;
+    margin-bottom:50px;
+    border-color:lightpink;
+}
+.social{
+    text-align:center;
+    padding:0px;
+}
