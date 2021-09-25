@@ -99,3 +99,12 @@ button[type=submit]{
     text-align:center;
     padding:0px;
 }
+MARQUEE{
+    background-color:lightpink;
+    font-size:280%;
+    font-family:'Broadway';
+    color:hotpink;
+    width:90%;
+    margin-left:4%;
+    border-radius:10px;
+}
