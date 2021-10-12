@@ -42,6 +42,11 @@ a {
     text-decoration: none;
 }
 
+
+hr{
+    border-color:deeppink;
+}
+
 nav {
     text-align:center;
     background-color:whitesmoke;
