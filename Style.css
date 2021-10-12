@@ -32,6 +32,7 @@ li {
 
 li:hover{
     font-size:160%;
+    font-weight:bold;
 }
 
 a {
