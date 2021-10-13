@@ -1,5 +1,5 @@
 ﻿html{
-    background-color:whitesmoke;
+    background-color:white;
 
  }
 
@@ -112,12 +112,21 @@ button[type=submit]{
     padding:0px;
     font-size:55px;
 }
+    
+    
+#ft1{
+   
+    z-index:-5;
+}
+
 MARQUEE{
+    margin-top:180px;
     background-color:lightpink;
     font-size:280%;
     font-family:'Broadway';
     color:hotpink;
     width:90%;
-    margin-left:5%;
+    margin-left:4%;
     border-radius:10px;
+    position:absolute;
 }
