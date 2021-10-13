@@ -17,7 +17,7 @@ ul {
     text-decoration:none;
     color: hotpink;
     overflow:hidden;
-    background-color:whitesmoke
+    background-color:white;
 }
 li {
     margin: 5%;
@@ -27,7 +27,7 @@ li {
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 li:hover{
@@ -36,8 +36,8 @@ li:hover{
 }
 
 a {
-    background-color:whitesmoke;
-    color:lightpink;
+    background-color:white;
+    color:deeppink;
     font-size: 120%;
     font-family:'Comic Sans MS';
     text-decoration: none;
@@ -50,7 +50,7 @@ hr{
 
 nav {
     text-align:center;
-    background-color:whitesmoke;
+    background-color:white;
 }
 
 
