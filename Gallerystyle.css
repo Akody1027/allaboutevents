@@ -3,13 +3,13 @@
 }
 
 
-btn1{
+.btn1{
     font-size:120%;
     border-radius:15px;
     color:pink;
     
 }
-btn:hover{
+.btn:hover{
     font-size:140%;
     background-color:pink;
     color:white;
