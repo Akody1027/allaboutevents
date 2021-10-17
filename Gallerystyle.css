@@ -9,10 +9,12 @@
     color:pink;
     
 }
-.btn:hover{
+.btn1:hover{
     font-size:140%;
     background-color:pink;
     color:white;
+    cursor:pointer;
+    
 
 }
 
