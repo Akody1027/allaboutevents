@@ -1,6 +1,22 @@
 ﻿html{
-    background-color:white;
+    background-color:pink;
 }
+
+
+btn1{
+    font-size:120%;
+    border-radius:15px;
+    color:pink;
+    
+}
+btn:hover{
+    font-size:140%;
+    background-color:pink;
+    color:white;
+
+}
+
+
 h1{
     color:lightpink;
     font-family:"secret recipe";
