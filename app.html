@@ -5,13 +5,6 @@
 </head>
 <body>
 
-    <hr>
-    <a href="index.html"><button class="btn1">  << HOME </button></a>
-    <hr>
-    
-    
-    
-    
     <h1>
 
         MAKE AN APPOINTMENT
@@ -20,35 +13,139 @@
 
 
 
+
+    <div class="app1">
+
+        <form action="https://formsubmit.co/AllAboutEventsOmaha@gmail.com" method="POST">
+            <input type="email" name="email" placeholder=" Your Email" required>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="date" name=" date" placeholder="select date" vrequired />
+            <textarea id="message" placeholder="Your Message Here" required></textarea>
+            <button type="submit">Send</button>
+
+    </div>
+
+
+
+
+
+
+
     <style>
-        h1{
+
+        .app1{
             text-align:center;
-         }
-
-
-        html{
-            background-color:pink;
         }
 
-        .btn1{
-            font-size:160%;
-            border-radius:15px;
-            color:pink;
-            background-color:hotpink;
-            
+
+
+
+        .form {
+            box-sizing: border-box;
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
         }
-        
-        .btn1:hover{
-            font-size:180%;
-            background-color:pink;
-            color:white;
-            cursor:pointer;
-    
-
-         }
 
 
 
+        input[type=text] {
+            width: 79%;
+            border: 2px solid;
+            border-radius: 6px;
+            margin: 1% 10%;
+            padding: 8px;
+            outline: none;
+            box-sizing: border-box;
+            border-color: pink;
+            background-color: lightpink;
+        }
+
+            input[type=text]:focus {
+                border-color: deeppink;
+            }
+
+        input[type=email] {
+            width: 79%;
+            border: 2px solid;
+            border-radius: 6px;
+            margin: 1% 10%;
+            padding: 8px;
+            outline: none;
+            box-sizing: border-box;
+            border-color: lightpink;
+            background-color: lightpink;
+        }
+
+        input[type=email]:focus {
+            border-color: hotpink;
+        }
+
+
+
+
+
+        input[type=date] {
+            width: 79%;
+            border: 2px solid;
+            border-radius: 6px;
+            margin: 1% 10%;
+            padding: 8px;
+            outline: none;
+            box-sizing: border-box;
+            border-color: lightpink;
+            background-color: lightpink;
+        }
+
+
+            input[type=date]:focus{
+                border-color:hotpink;
+            }
+
+
+
+
+            #message {
+                width: 78.5%;
+                border-radius: 6px;
+                margin: 0px 10%;
+                background-color: lightpink;
+                border-color: pink;
+                margin: 1% 10%;
+                height: 150px;
+                
+            }
+
+                #message:focus{
+                 border-color:hotpink;
+
+                }
+
+
+
+                button[type=submit] {
+                    text-align: center;
+                    background-color: lightpink;
+                    border-radius: 6px;
+                    width: 50%;
+                    margin-left:;
+                    margin-bottom: 50px;
+                    border-color: lightpink;
+                }
+
+            button[type=submit]:focus{
+                border-color:hotpink;
+            }
+
+
+            h1 {
+                text-align: center;
+            }
+
+
+        html {
+            background-color: pink;
+        }
     </style>
 </body>
 </html>
