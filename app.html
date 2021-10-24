@@ -4,14 +4,10 @@
     <title>MAKE AN APPOINTMENT</title>
 </head>
 <body>
-    
     <hr>
     <a href="index.html"><button class="btn1">  << HOME </button></a>
     <hr>
-    
-    
-    
-    
+
 
     <h1>
 
@@ -25,13 +21,15 @@
     <div class="app1">
 
         <form action="https://formsubmit.co/AllAboutEventsOmaha@gmail.com" method="POST">
-            <input type="email" name="email" placeholder=" Your Email" required>
             <input type="text" name="name" placeholder="Your Name" required>
-            <input type="date" name=" date" placeholder="select date" vrequired />
+            <input type="email" name="email" placeholder=" Your Email" required>
+            <input type="tel" name="number" placeholder="Contact Number" />
+            <input type="time" name="time" placeholder="Appointment Time" required />
+            <input type="date" name=" date" placeholder="Select Date" vrequired />
             <textarea id="message" placeholder="Your Message Here" required></textarea>
             <button type="submit">Send</button>
 
-    </div>
+</div>
 
 
 
@@ -39,13 +37,16 @@
 
 
 
-    <style>
-        
-               .btn1 {
+    <style> 
+
+
+
+
+        .btn1 {
             font-size: 160%;
             border-radius: 15px;
             color: pink;
-            background-color: hotpink;
+            background-color:white;
         }
 
             .btn1:hover {
@@ -54,15 +55,11 @@
                 color: white;
                 cursor: pointer;
             }
-        
-        
-        
-        
-        
-        
 
-        .app1{
-            text-align:center;
+
+        .app1 {
+            text-align: center;
+
         }
 
 
@@ -77,6 +74,8 @@
 
 
 
+
+
         input[type=text] {
             width: 79%;
             border: 2px solid;
@@ -87,11 +86,22 @@
             box-sizing: border-box;
             border-color: pink;
             background-color: lightpink;
+            border-color:white;
+        }
+
+        input[type=text]:hover {
+            border-color: deeppink;
         }
 
             input[type=text]:focus {
                 border-color: deeppink;
             }
+
+
+
+
+
+
 
         input[type=email] {
             width: 79%;
@@ -101,13 +111,80 @@
             padding: 8px;
             outline: none;
             box-sizing: border-box;
-            border-color: lightpink;
+            border-color:white;
             background-color: lightpink;
+
         }
 
         input[type=email]:focus {
             border-color: hotpink;
         }
+            input[type=email]:hover {
+                border-color: hotpink;
+            }
+
+
+
+
+
+
+
+
+        input[type=time] {
+            width: 79%;
+            border: 2px solid;
+            border-radius: 6px;
+            margin: 1% 10%;
+            padding: 8px;
+            outline: none;
+            box-sizing: border-box;
+            border-color: pink;
+            background-color: lightpink;
+            border-color: white;
+        }
+
+            input[type=time]:focus {
+                border-color: deeppink;
+            }
+            input[type=time]:hover {
+                border-color: deeppink;
+            }
+
+
+
+
+
+
+
+
+        input[type=tel] {
+            width: 79%;
+            border: 2px solid;
+            border-radius: 6px;
+            margin: 1% 10%;
+            padding: 8px;
+            outline: none;
+            box-sizing: border-box;
+            border-color: pink;
+            background-color: lightpink;
+            border-color: white;
+        }
+
+            input[type=tel]:focus {
+                border-color: deeppink;
+            }
+
+            input[type=tel]:hover {
+                border-color: deeppink;
+            }
+
+
+
+
+
+
+
+
 
 
 
@@ -121,54 +198,89 @@
             padding: 8px;
             outline: none;
             box-sizing: border-box;
-            border-color: lightpink;
+            border-color: white;
             background-color: lightpink;
         }
-
-
-            input[type=date]:focus{
-                border-color:hotpink;
+            input[type=date]:focus {
+                border-color: hotpink;
+                cursor: pointer;
+            }
+            input[type=date]:hover {
+                border-color: hotpink;
+                cursor:pointer;
             }
 
 
 
 
-            #message {
-                width: 78.5%;
-                border-radius: 6px;
-                margin: 0px 10%;
-                background-color: lightpink;
-                border-color: pink;
-                margin: 1% 10%;
-                height: 150px;
+
+
+
+        #message {
+            border:2px solid;
+            width: 78.5%;
+            border-radius: 6px;
+            margin: 0px 10%;
+            background-color: lightpink;
+            border-color:white;
+            margin: 1% 10%;
+            height: 150px;
+        }
+
+            #message:focus {
+                border:4px solid;
+                border-color: hotpink;
                 
             }
 
-                #message:focus{
-                 border-color:hotpink;
-
-                }
-
-
-
-                button[type=submit] {
-                    text-align: center;
-                    background-color: lightpink;
-                    border-radius: 6px;
-                    width: 50%;
-                    margin-left:;
-                    margin-bottom: 50px;
-                    border-color: lightpink;
-                }
-
-            button[type=submit]:focus{
-                border-color:hotpink;
+            #message:hover {
+                border: 4px solid;
+                border-color: hotpink;
             }
 
 
-            h1 {
-                text-align: center;
+
+
+
+
+
+
+
+
+        button[type=submit] {
+            text-align: center;
+            background-color: lightpink;
+            border-radius: 6px;
+            width: 50%;
+            margin-left:;
+            margin-bottom: 50px;
+            border-color:white;
+        }
+
+            button[type=submit]:focus {
+                border-color: hotpink;
+                cursor:pointer;
             }
+            button[type=submit]:hover {
+                border-color: hotpink;
+                cursor:pointer;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+        h1 {
+            text-align: center;
+            color:white;
+        }
 
 
         html {
