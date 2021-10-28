@@ -56,29 +56,14 @@
                 font-size:150%;
             }
        
-         iframe[src*="ads-iframe"] { 
-           display: none; }
+     
+        .btn primary-button{
+            background-color:white;
+            color:deeppink;
+        }
        
        
-       (function($){
 
-    setInterval(() => {
-
-        $.each($('iframe'), (arr,x) => {
-
-            let src = $(x).attr('src');
-
-            if (src && src.match(/(ads-iframe)|(disqusads)/gi)) {
-
-                $(x).remove();
-
-            }
-
-        });
-
-    }, 300);
-
-})(jQuery);
 
 
 
