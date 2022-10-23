@@ -188,7 +188,7 @@ MARQUEE{
         }
 
         .disappear {
-            animation: vanish 1s forwards;
+            animation: vanish 2s forwards;
         }
 
         @keyframes vanish {
