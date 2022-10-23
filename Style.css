@@ -183,7 +183,7 @@ MARQUEE{
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color:234/76/137;
+            background-color: rgb(234,76,137);
             position: fixed;
         }
 
