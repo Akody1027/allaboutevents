@@ -12,12 +12,27 @@
 
 </head>
 <body>
-<div class="cushycms">   
+<div id="loader">
+    <img src="images/loader.gif" width="20%" />
+</div>
+    
 <h1>
     OUR STORY BEGINS...........
 </h1>
 
-</body>
+                        
+                    <script>
+        let loader = document.querySelector("#loader")
 
-</div>
+        window.addEventListener("load", vanish);
+
+        function vanish() {
+            loader.classList.add("disappear")
+
+
+        }
+    </script>
+    
+    
+</body>
 </html>
